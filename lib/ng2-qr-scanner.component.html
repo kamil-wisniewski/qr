@@ -1,0 +1,10 @@
+<div id="app-component">
+  <div class="webcam">
+    Skanowanie produktów w Twojej firmie.
+    <ng2-webcam [options]="opt" [onSuccess]="success" [onError]="error"></ng2-webcam>
+    <div *ngIf="text"> Twój produkt został poprawnie odkodowany. <br><input type="text" id="result" value="{{text}}"><p>Potwierdź swój kod w aplikacji!<p></div>
+    <div>
+      <canvas id="qr-code" style="display: none;"></canvas>
+    </div>
+  </div>
+</div>
