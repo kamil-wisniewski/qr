@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Angular2 Face Detection Example ",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js --hot --progress --colors --host http://0.0.0.0 --port 3001",
+    "start": "webpack-dev-server --config webpack.config.js --hot --progress --colors --host 92.222.84.152 --port 3001",
     "test": "karma start",
     "lint": "tslint \"lib/**/*.ts\"",
     "e2e": "./node_modules/protractor/bin/webdriver-manager update && protractor"
